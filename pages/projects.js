@@ -60,10 +60,10 @@ export default function Home() {
               <Text h1>Featured Projects</Text>
             </Grid.Container>
             <Grid.Container justify='center'>
-              <Image width="2048" height="1170" src="/neverwin-banner.png" alt="my projects" />
+              <Image width="2048" height="1170" src="/geist-banner.png" alt="my projects" />
             </Grid.Container>
             <Grid.Container justify='center'>
-              <Text h6 type='secondary'>Neverlose - A p100 framework</Text>
+              <Text h6 type='secondary'>GeistUI - A p100 framework</Text>
             </Grid.Container>
 
             <Spacer h={5} />

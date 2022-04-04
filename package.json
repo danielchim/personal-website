@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:up": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
+    "prod:up": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.7",
+    "@geist-ui/react": "^2.2.5",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sharp": "^0.30.3"
   },
   "devDependencies": {
     "eslint": "8.11.0",
